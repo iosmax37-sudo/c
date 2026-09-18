@@ -31,7 +31,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <!-- ✏️ EDIT: Your Intro -->
-            <h1>Hi, I'm <span>Your Name</span></h1>
+            <h1>Hi, I'm <span>Zay</span></h1>
             <p class="tagline">Content Creator • JrDev </p>
             <p class="subtext">First Web Project </p>
             <div class="hero-buttons">
