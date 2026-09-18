@@ -1,1 +1,159 @@
-# c
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ✏️ EDIT: Change your website title here -->
+    <title>Zay | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- ✏️ EDIT: Your Name / Brand -->
+            <a href="#" class="logo">Zay.dev</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Intro -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- ✏️ EDIT: Your Intro -->
+            <h1>Hi, I'm <span>Your Name</span></h1>
+            <p class="tagline">Content Creator • JrDev </p>
+            <p class="subtext">First Web Project </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-btn primary">View My Work</a>
+                <a href="#contact" class="cta-btn secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <!-- ✏️ EDIT: Replace with your photo URL -->
+                <img src="Zay.png" alt="Your Photo" id="profileImg">
+            </div>
+            <div class="about-text">
+                <!-- ✏️ EDIT: Your Bio -->
+                <p>
+                    A Python Dev😭🤞
+                    Just An Upcoming Junior Dev And Also an editor 
+                </p>
+                <p>
+                    Currently learning & exploring: Web Development, Python, Cybersecurity & Design.
+                    Always curious, always building. 🚀
+                </p>
+                <!-- ✏️ EDIT: Download Resume Link -->
+                <a href="#" class="resume-btn">📄 Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-light">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <!-- ✏️ EDIT: Add/remove skills below -->
+            <div class="skill-card">
+                <h3>🐍 Python</h3>
+                <p>Automation • GUI Apps • Discord Bots • APIs</p>
+            </div>
+            <div class="skill-card">
+                <h3>🛠️ Tools & Others</h3>
+                <p>Git • Linux • Termux • Problem Solving</p>
+            </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- ✏️ EDIT: Project 1 -->
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio built with pure HTML, CSS & JavaScript</p>
+                <div class="project-tags">
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo</a>
+                    <a href="#" target="_blank">Source Code</a>
+                </div>
+            </div>
+
+            <!-- ✏️ EDIT: Project 2 -->
+            <div class="project-card">
+                <h3>Python Calculator App</h3>
+                <p>Custom GUI calculator with Tkinter & CustomTkinter</p>
+                <div class="project-tags">
+                    <span>Python</span><span>Tkinter</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo</a>
+                    <a href="#" target="_blank">Source Code</a>
+                </div>
+            </div>
+
+            <!-- ✏️ EDIT: Project 3 -->
+            <div class="project-card">
+                <h3>Discord Bot</h3>
+                <p>Feature-rich bot with moderation & fun commands</p>
+                <div class="project-tags">
+                    <span>Python</span><span>Discord.py</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank">Live Demo</a>
+                    <a href="#" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-light">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-text">Have a question or want to work together? Drop me a message!</p>
+        
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message ✉️</button>
+        </form>
+        <p id="formMsg" class="form-message"></p>
+
+        <!-- ✏️ EDIT: Your Social Links -->
+        <div class="social-links">
+            <h3>Or find me on</h3>
+            <a href="#" target="_blank">😏 Discord</a>
+            <a href="#" target="_blank">🙏 Tiktok </a>
+            <a href="#" target="_blank">🌐 Instagram </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- ✏️ EDIT: Your Name & Year -->
+        <p>&copy; 2026 Zay. Built with ❤️ and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
